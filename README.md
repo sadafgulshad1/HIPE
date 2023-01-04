@@ -6,6 +6,7 @@ This repository contains the official implementation of our work [Hierarchical E
 
 <img src="https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/Architecture_HProtoPNet.png"  />
 
+![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif100.gif "title-1") ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif100.gif "title-2")
 ## Dataset Preparation
 ### UCF-101
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
