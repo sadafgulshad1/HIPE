@@ -7,8 +7,19 @@ This repository contains the official implementation of our work [Hierarchical E
 
 ## Dataset Preparation
 ### UCF-101
-*
-*
+* Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
+* Convert from avi to jpg files using ```util_scripts/generate_video_jpgs.py```
+
+```bash
+python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path ucf101
+```
+
+* Generate annotation file in json format similar to ActivityNet using ```util_scripts/ucf101_json.py```
+  * ```annotation_dir_path``` includes classInd.txt, trainlist0{1, 2, 3}.txt, testlist0{1, 2, 3}.txt
+
+```bash
+python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
+```
 ## BibTeX
 If you found this work useful in your research, please consider citing
 ```
