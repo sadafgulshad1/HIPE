@@ -31,5 +31,6 @@ If you found this work useful in your research, please consider citing
 }
 ```
 ## Acknowledgements
-* We adapted the baseline ResNet-3D code from [3D ResNets for Action Recognition](https://github.com/kenshohara/3D-ResNets-PyTorch).
-* We adapted the hyperbolic embeddings code from [Hyperbolic Action Recognition](https://github.com/Tenglon/hyperbolic_action).
+* We used the baseline ResNet-3D code from [3D ResNets for Action Recognition](https://github.com/kenshohara/3D-ResNets-PyTorch).
+* We used the hyperbolic embeddings code from [Hyperbolic Action Recognition](https://github.com/Tenglon/hyperbolic_action).
+* We used the baseline ProtoPNet code from [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet).
