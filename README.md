@@ -58,7 +58,12 @@ python main.py --root_path ~/data --video_path ~/UCF-101-JPEG  --annotation_path
 ```bash
 python -m util_scripts.eval_accuracy ucf101_01.json /results/val.json --subset val -k 1 --ignore
 ```
+### Qualitative Analysis
+During the training prototypes for each class are stored in the ``img`` folder at each push epoch. 
 
+* Run ``python local_analysis.py`` to find closest prototypes to the test images at children level.
+
+* Run ``python local_analysis_parents.py`` to find closest prototypes to the test images at ancestor levels.
 ## BibTeX
 If you found this work useful in your research, please consider citing
 ```
