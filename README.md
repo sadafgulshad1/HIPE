@@ -30,11 +30,13 @@ Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?
 We computed the hierarchical action embeddings for the hierarchy defined for UCF-101 in `` UCF-101_hierarchy.csv `` following [Teng.et.al](https://openaccess.thecvf.com/content_CVPR_2020/papers/Long_Searching_for_Actions_on_the_Hyperbole_CVPR_2020_paper.pdf). The precomputed hyperbolic action embeddings are uploaded in the file ``UCF101_two_level_emb.pth`` 
 
 ## Running the Code 
-* For training the model ```bash
+* For training the model 
+```bash
 python main.py --root_path ~/data --video_path ~/UCF-101-JPEG --annotation_path ucf101_01.json \
 --result_path results --dataset ucf101 --model resnet \
 --model_depth 18 --n_classes 101 --batch_size 128 --n_threads 4 --checkpoint 5
 ```
+
 * Continue Training from epoch 101. (/save_100.pth is loaded.)
 
 ```bash
@@ -42,6 +44,7 @@ python main.py --root_path ~/data --video_path ~/UCF-101-JPEG --annotation_path 
 --dataset ucf101 --resume_path results/save_100.pth \
 --model_depth 18 --n_classes 101 --batch_size 128 --n_threads 4 --checkpoint 5
 ```
+
 ## BibTeX
 If you found this work useful in your research, please consider citing
 ```
