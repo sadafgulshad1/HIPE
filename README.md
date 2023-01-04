@@ -37,7 +37,7 @@ python main.py --root_path ~/data --video_path ~/UCF-101-JPEG --annotation_path 
 --model_depth 18 --n_classes 101 --batch_size 128 --n_threads 4 --checkpoint 5
 ```
 
-* Continue Training from epoch 101. (/save_100.pth is loaded.)
+* Continue Training from epoch 101. (results/save_100.pth is loaded.)
 
 ```bash
 python main.py --root_path ~/data --video_path ~/UCF-101-JPEG --annotation_path ucf101_01.json \
