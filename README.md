@@ -44,6 +44,20 @@ python main.py --root_path ~/data --video_path ~/UCF-101-JPEG --annotation_path 
 --dataset ucf101 --resume_path results/save_100.pth \
 --model_depth 18 --n_classes 101 --batch_size 128 --n_threads 4 --checkpoint 5
 ```
+* Calculate top-5 class probabilities of each video using a trained model (results/save_200.pth.)  
+Note that ```inference_batch_size``` should be small because actual batch size is calculated by ```inference_batch_size * (n_video_frames / inference_stride)```.
+
+```bash
+python main.py --root_path ~/data --video_path ~/UCF-101-JPEG  --annotation_path ucf101_01.json \
+--result_path results --dataset ucf101 --resume_path results/save_200.pth \
+--model_depth 18 --n_classes 101 --n_threads 4 --no_train --no_val --inference --output_topk 5 --inference_batch_size 1
+```
+
+* Perform Inference on top-1 video accuracy of a recognition result (/results/val.json). Note that this is the video level accuracy. For some datasets video level and clip level accuracies vary a lot.
+
+```bash
+python -m util_scripts.eval_accuracy ucf101_01.json /results/val.json --subset val -k 1 --ignore
+```
 
 ## BibTeX
 If you found this work useful in your research, please consider citing
