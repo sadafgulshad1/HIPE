@@ -22,7 +22,7 @@ python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_js
 ```
 ## Pre-trained Models
 
-Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4).
+Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4). We used ```r3d18_K_200ep.pth ``` trained on kinetics 700 (K) and finetuned on the respective datasets in our experiments.
 
 ## BibTeX
 If you found this work useful in your research, please consider citing
