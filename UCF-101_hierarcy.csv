@@ -1,0 +1,101 @@
+Apply Eye Makeup,Self-grooming,Human-Object Interaction,Root
+Apply Lipstick,Self-grooming,Human-Object Interaction,Root
+Blow Dry Hair,Self-grooming,Human-Object Interaction,Root
+Brushing Teeth,Self-grooming,Human-Object Interaction,Root
+Shaving Beard,Self-grooming,Human-Object Interaction,Root
+Cutting In Kitchen,Working,Human-Object Interaction,Root
+Hammering,Working,Human-Object Interaction,Root
+Knitting,Working,Human-Object Interaction,Root
+Mixing Batter,Working,Human-Object Interaction,Root
+Mopping Floor,Working,Human-Object Interaction,Root
+Pizza Tossing,Working,Human-Object Interaction,Root
+Typing,Working,Human-Object Interaction,Root
+Writing On Board,Working,Human-Object Interaction,Root
+Hula Hoop,Exercising/playing games,Human-Object Interaction,Root
+Juggling Balls,Exercising/playing games,Human-Object Interaction,Root
+Jump Rope,Exercising/playing games,Human-Object Interaction,Root
+Nun chucks,Exercising/playing games,Human-Object Interaction,Root
+Skate Boarding,Exercising/playing games,Human-Object Interaction,Root
+Soccer Juggling,Exercising/playing games,Human-Object Interaction,Root
+Yo Yo,Exercising/playing games,Human-Object Interaction,Root
+Baby crawling,Non strenuous,Body-Motion Only,Root
+Blowing Candles,Non strenuous,Body-Motion Only,Root
+Swing,Non strenuous,Body-Motion Only,Root
+Walking with a dog,Non strenuous,Body-Motion Only,Root
+Wall Pushups,Strenuous,Body-Motion Only,Root
+Body Weight Squats,Strenuous,Body-Motion Only,Root
+Handstand Pushups,Strenuous,Body-Motion Only,Root
+Handstand Walking,Strenuous,Body-Motion Only,Root
+Jumping Jack,Strenuous,Body-Motion Only,Root
+Lunges,Strenuous,Body-Motion Only,Root
+Pull Ups,Strenuous,Body-Motion Only,Root
+Push Ups,Strenuous,Body-Motion Only,Root
+Rock Climbing Indoor,Strenuous,Body-Motion Only,Root
+Rope Climbing,Strenuous,Body-Motion Only,Root
+Tai Chi,Strenuous,Body-Motion Only,Root
+Trampoline Jumping,Strenuous,Body-Motion Only,Root
+Haircut,Two persons interaction,Human-Human Interaction,Root
+Head Massage,Two persons interaction,Human-Human Interaction,Root
+Salsa Spins,Two persons interaction,Human-Human Interaction,Root
+Military Parade,More than two persons interaction,Human-Human Interaction,Root
+Band Marching,More than two persons interaction,Human-Human Interaction,Root
+Drumming,Percussion,Playing Musical Instruments,Root
+Playing Tabla,Percussion,Playing Musical Instruments,Root
+Playing Daf,Percussion,Playing Musical Instruments,Root
+Playing Dhol,Percussion,Playing Musical Instruments,Root
+Playing Guitar,String,Playing Musical Instruments,Root
+Playing Violin,String,Playing Musical Instruments,Root
+Playing Cello,String,Playing Musical Instruments,Root
+Playing Piano,String,Playing Musical Instruments,Root
+Playing Sitar,String,Playing Musical Instruments,Root
+Playing Flute,Wind,Playing Musical Instruments,Root
+Balance Beam,Gymnatics,Sports,Root
+Floor Gymnastics,Gymnatics,Sports,Root
+High Jump,Gymnatics,Sports,Root
+Parallel Bars,Gymnatics,Sports,Root
+Pommel Horse,Gymnatics,Sports,Root
+Long Jump,Gymnatics,Sports,Root
+Pole Vault,Gymnatics,Sports,Root
+Uneven Bars,Gymnatics,Sports,Root
+Still Rings,Gymnatics,Sports,Root
+Cliff Diving,Air sports,Sports,Root
+Diving,Air sports,Sports,Root
+Sky Diving,Air sports,Sports,Root
+Skiing,Ice or Snow Sports,Sports,Root
+Skijet,Ice or Snow Sports,Sports,Root
+Ice Dancing,Ice or Snow Sports,Sports,Root
+Kayaking,Water Sports,Sports,Root
+Front Crawl,Water Sports,Sports,Root
+Breaststroke,Water Sports,Sports,Root
+Rafting,Water Sports,Sports,Root
+Rowing,Water Sports,Sports,Root
+Surfing,Water Sports,Sports,Root
+Shotput,Target Sports,Sports,Root
+Throw Discus,Target Sports,Sports,Root
+Hammer Throw,Target Sports,Sports,Root
+Javelin Throw,Target Sports,Sports,Root
+Bowling,Target Sports,Sports,Root
+Archery,Target Sports,Sports,Root
+Frisbee Catch,Target Sports,Sports,Root
+Boxing Punching Bag,Strength Sports,Sports,Root
+Boxing Speed Bag,Strength Sports,Sports,Root
+Punch,Strength Sports,Sports,Root
+Sumo Wrestling,Strength Sports,Sports,Root
+Bench Press,Strength Sports,Sports,Root
+Clean and Jerk,Strength Sports,Sports,Root
+Table Tennis Shot,Racket Sports,Sports,Root
+Tennis Swing,Racket Sports,Sports,Root
+Volleyball Spiking,Ball Sports,Sports,Root
+Golf Swing,Ball Sports,Sports,Root
+Basketball Pitch,Ball Sports,Sports,Root
+Basketball Shooting,Ball Sports,Sports,Root
+Basketball Dunk,Ball Sports,Sports,Root
+Billiards Shot,Ball Sports,Sports,Root
+Cricket Bowling,Ball Sports,Sports,Root
+Cricket Shot,Ball Sports,Sports,Root
+Soccer Penalty,Ball Sports,Sports,Root
+Field Hockey Penalty,Ball Sports,Sports,Root
+Fencing,Combat Sports,Sports,Root
+Biking,Riding Sports,Sports,Root
+Horse Race,Riding Sports,Sports,Root
+Horse Riding,Riding Sports,Sports,Root
