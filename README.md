@@ -24,8 +24,10 @@ python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_js
 * We define hierarchy for UCF-101 with the number of classes at level one, two, and three being 5, 20, and 101 respectively. The classes at the third level of the hierarchy are the 101 original classes of the dataset. The full hierarchy is included in the file `` UCF-101_hierarchy.csv `` 
 
 ## Pre-trained Models
-
+### ResNet-3D Backbone
 Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4). We used ```r3d18_K_200ep.pth ``` trained on kinetics 700 (K) and finetuned it on the respective datasets in our experiments.
+### Hierarchical Action Embeddings
+We computed the hierarchical action embeddings for the hierarchy defined for UCF-101 in `` UCF-101_hierarchy.csv `` following [Teng.et.al](https://openaccess.thecvf.com/content_CVPR_2020/papers/Long_Searching_for_Actions_on_the_Hyperbole_CVPR_2020_paper.pdf). The precomputed hyperbolic action embeddings are uploaded in the file ``UCF101_two_level_emb.pth`` 
 
 ## BibTeX
 If you found this work useful in your research, please consider citing
