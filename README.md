@@ -6,7 +6,7 @@ This repository contains the official implementation of our work [Hierarchical E
 
 <img src="https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/Architecture_HProtoPNet.png"  />
 
-![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif100.gif "title-1") ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/most_highly_activated_patch_in_original_img_by_top-3_prototype.gif "title-2")![alt-text-3](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/prototype_activation_map_by_top-3_prototype.gif)![alt-text-4](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype.gif =75%x)![alt-text-5](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype_self_act.gif)
+![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif100.gif "title-1") ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/most_highly_activated_patch_in_original_img_by_top-3_prototype.gif "title-2")![alt-text-3](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/prototype_activation_map_by_top-3_prototype.gif)![alt-text-4](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype.gif "title-4" =75%x)![alt-text-5](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype_self_act.gif)
 ## Dataset Preparation
 ### UCF-101
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
