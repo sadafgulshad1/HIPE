@@ -20,6 +20,10 @@ python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path
 ```bash
 python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
 ```
+## Pre-trained Models
+
+Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4).
+
 ## BibTeX
 If you found this work useful in your research, please consider citing
 ```
