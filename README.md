@@ -19,3 +19,6 @@ If you found this work useful in your research, please consider citing
   year={2023}
 }
 ```
+## Acknowledgements
+* We used baseline ResNet-3D code from [3D ResNets for Action Recognition](https://github.com/kenshohara/3D-ResNets-PyTorch)
+* We used baseline Hyperbolic embeddings code from [Hyperbolic Action Recognition](https://github.com/Tenglon/hyperbolic_action)
