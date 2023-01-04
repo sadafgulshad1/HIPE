@@ -53,7 +53,7 @@ python main.py --root_path ~/data --video_path ~/UCF-101-JPEG  --annotation_path
 --model_depth 18 --n_classes 101 --n_threads 4 --no_train --no_val --inference --output_topk 5 --inference_batch_size 1
 ```
 
-* Perform Inference on top-1 video accuracy of a recognition result (/results/val.json). Note that this is the video level accuracy. For some datasets video level and clip level accuracies vary a lot.
+* Perform Inference/validation by calculating top-1 video accuracy of a recognition result (/results/val.json). Note that this is the video level accuracy. For some datasets video level and clip level accuracies vary a lot.
 
 ```bash
 python -m util_scripts.eval_accuracy ucf101_01.json /results/val.json --subset val -k 1 --ignore
