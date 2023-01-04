@@ -20,6 +20,9 @@ python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path
 ```bash
 python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
 ```
+### Hierarchical UCF-101
+* We define hierarchy for UCF-101 with the number of classes at level one, two, and three being 5, 20, and 101 respectively. The classes at the third level of the hierarchy are the 101 original classes of the dataset. The full hierarchy is included in the file `` UCF-101_hierarchy.csv `` .
+
 ## Pre-trained Models
 
 Pre-trained 3D-ResNet models are available [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4). We used ```r3d18_K_200ep.pth ``` trained on kinetics 700 (K) and finetuned it on the respective datasets in our experiments.
