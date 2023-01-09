@@ -17,15 +17,15 @@ This repository contains the official implementation of our work [Hierarchical E
 
 **Hierarchical** 
 
-*Grandparent Level*
+*Grandparent Level* Human-object interaction
 
 ![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif1121.gif ) ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/most_highly_activated_patch_in_original_img_by_top-6_prototype.gif )![alt-text-3](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/prototype_activation_map_by_top-6_prototype.gif )  ![alt-text-4](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-6_activated_prototype_self_act.gif ) ![alt-text-5](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-6_activated_prototype.gif )
 
-*Parent Level*
+*Parent Level* Self-grooming
 
 ![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif1121.gif ) ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/most_highly_activated_patch_in_original_img_by_top-9_prototype.gif  )![alt-text-3](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/prototype_activation_map_by_top-9_prototype.gif )  ![alt-text-4](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-9_activated_prototype_self_act.gif ) ![alt-text-5](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-9_activated_prototype.gif )
 
-*Child Level*
+*Child Level* Blow dry
 
 ![alt-text-1](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/original_gif1121.gif ) ![alt-text-2](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/most_highly_activated_patch_in_original_img_by_top-3_prototype_1.gif  )![alt-text-3](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/prototype_activation_map_by_top-3_prototype_1.gif )  ![alt-text-4](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype_self_act_1.gif ) ![alt-text-5](https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/sample/top-3_activated_prototype_1.gif )
 
