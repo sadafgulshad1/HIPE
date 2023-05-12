@@ -4,7 +4,7 @@ This repository contains the official implementation of our work [Hierarchical E
 
 **Abstract:** *To interpret deep neural networks, one main approach is to dissect the visual input and find the prototypical parts responsible for the classification. However, existing methods often ignore the hierarchical relationship between these prototypes, and thus can not explain semantic concepts at both higher level (e.g., water sports) and lower level (e.g., swimming). In this paper inspired by human cognition system, we leverage hierarchal information to deal with uncertainty: When we observe water and human activity, but no definitive action it can be recognized as the water sports parent class. Only after observing a person swimming can we definitively refine it to the swimming action. To this end, we propose HIerarchical Prototype Explainer (HIPE) to build hierarchical relations between prototypes and classes. HIPE enables a reasoning process for video action classification by dissecting the input video frames on multiple levels of the class hierarchy, our method is also applicable to other video tasks. The faithfulness of our method is verified by reducing accuracy-explainability trade off on ActivityNet and UCF-101 while providing multi-level explanations.* 
 
-**Overview of Hierarchical ProtoPNet:**
+**Overview of HIPE:**
 
 <img src="https://github.com/sadafgulshad1/Hierarchical-ProtoPNet/blob/main/Architecture_HProtoPNet.png"  />
 
